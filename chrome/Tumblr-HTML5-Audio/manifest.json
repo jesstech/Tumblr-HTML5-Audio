@@ -1,0 +1,13 @@
+{
+   "name": "Tumblr HTML5 Audio",
+   "version": "1.0",
+   "manifest_version": 2,
+   "description": "Lets you listen to audio posts on your Tumblr Dashboard without Flash.",
+   "update_url": "https://github.com/jesstech/Tumblr-HTML5-Audio/raw/master/chrome/update-manifest.xml",
+   "content_scripts": [
+    {
+      "matches": ["http://www.tumblr.com/*"],
+      "js": ["audio.js"]
+    }
+   ]
+}

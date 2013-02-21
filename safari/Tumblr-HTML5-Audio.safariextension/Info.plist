@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>rooshoes</string>
+	<key>Builder Version</key>
+	<string>8536.26.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tumblr HTML5 Audio</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.rooshoes.tumblrHTML5Audio</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>audio.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://www.tumblr.com/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Lets you listen to audio posts on your Tumblr Dashboard without Flash.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.tumblr.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/jesstech/Tumblr-HTML5-Audio/raw/master/safari/update-manifest.plist</string>
+	<key>Website</key>
+	<string>http://rooshoes.tumblr.com</string>
+</dict>
+</plist>
