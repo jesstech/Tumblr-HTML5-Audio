@@ -21,7 +21,7 @@ function audioHTML(audioFile) {
 /*
 ** Let us use tumblr's jQuery object as $
 ******************************************/
-var $ = parentWindow.jQuery;
+// var $ = parentWindow.jQuery;
 
 if ( typeof(parentWindow.Tumblr.replaceIfFlash) === "function" ) {
    /*
@@ -44,6 +44,6 @@ if ( typeof(parentWindow.Tumblr.replaceIfFlash) === "function" ) {
 /*
 ** Eval to execute replaceIfFlash for any items we haven't yet
 ******************************************/
-$('*[id^=audio_node_]+script').each(function(){
+$('[id^=audio_node_]+script, [id^=audio_player_]+script').each(function(){
    eval('parentWindow.'+this.text.replace(/(\r|\n)/g, '').replace(/  +/g, ''));
 });

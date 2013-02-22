@@ -6,8 +6,8 @@
    "update_url": "https://github.com/jesstech/Tumblr-HTML5-Audio/raw/master/chrome/update-manifest.xml",
    "content_scripts": [
     {
-      "matches": ["http://www.tumblr.com/*"],
-      "js": ["audio.js"]
+      "matches": ["*://*.tumblr.com/*"],
+      "js": ["jquery-1.9.1.min.js", "audio.js"]
     }
    ]
 }

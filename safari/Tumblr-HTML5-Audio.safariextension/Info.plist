@@ -26,11 +26,11 @@
 			<array>
 				<string>audio.js</string>
 			</array>
+			<key>Start</key>
+			<array>
+				<string>jquery-1.9.1.min.js</string>
+			</array>
 		</dict>
-		<key>Whitelist</key>
-		<array>
-			<string>http://www.tumblr.com/*</string>
-		</array>
 	</dict>
 	<key>Description</key>
 	<string>Lets you listen to audio posts on your Tumblr Dashboard without Flash.</string>
