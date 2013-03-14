@@ -23,7 +23,7 @@ function audioHTML(audioFile) {
 ******************************************/
 // var $ = parentWindow.jQuery;
 
-if ( typeof(parentWindow.Tumblr.replaceIfFlash) === "function" ) {
+if ( parentWindow.Tumblr && typeof(parentWindow.Tumblr.replaceIfFlash) === "function" ) {
    /*
    ** Save window.Tumblr's replaceIfFlash method so we can reuse it
    ******************************************/
